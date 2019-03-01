@@ -1,4 +1,4 @@
-{% if site.style == 'dark' %}
+﻿{% if site.style == 'dark' %}
   {% assign icon_color = "#ffffff" %}
 {% else %}
   {% assign icon_color = "#24292e" %}
@@ -12,10 +12,11 @@
 
 <!doctype html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
+    <meta name="yandex-verification" content="f24e21af4a7c17b3" />
     <title>{{ user.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="{{ "/assets/styles.css" | absolute_url }}" rel="stylesheet" type="text/css">
-  </head>
+</head>
   <body class="bg-white" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
