@@ -63,3 +63,4 @@ topics:
   - name: Matlab
     web_url: https://github.com/topics/matlab
     image_url: https://raw.githubusercontent.com/github/explore/a30f3510d1700a60961fb4960d4293455a5e9de4/topics/matlab/matlab.png
+theme: jekyll-theme-minimal
